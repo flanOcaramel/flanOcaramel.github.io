@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2E3A91;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #2E3A91;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2E3A91;
+    padding-bottom: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info div {
+    margin-bottom: 10px;
+}
+
+.info div span {
+    font-weight: bold;
+}
+
+.education, .skills, .projects, .languages, .awards {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.skills ul, .languages ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li, .languages ul li {
+    width: 45%;
+    margin-right: 5%;
+}
+
+.projects ul li {
+    margin-bottom: 15px;
+}
+
+.languages ul li {
+    width: 30%;
+}
